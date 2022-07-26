@@ -6,6 +6,11 @@
     list-style: none;
 }
 
+body{
+    font-family: 'Merienda One', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
 
 header{
     width: 100%;
@@ -63,5 +68,44 @@ header{
     display: flex;
     align-items: center;
     padding-top: 35px;
+    
+}
+
+.acercade {
+
+    width: 80%;
+    height: 250px;
+    margin: 50px auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 20px -2px rgb(189, 184, 184);
+}
+
+.acercade__paragraph{
+       
+    padding: 0px 50px;
+}
+
+.experiencia p{
+    padding-left: 80px;
+}
+.acercade .foto img{
+
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 80px;
+
+}
+
+.separador{
+    width: 80%;
+    height: 50px;
+    margin:0 auto ;
+    text-align: center;
+    border-bottom: 1px solid rgba(44, 43, 43, 0.89);
+    
     
 }
