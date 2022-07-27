@@ -101,9 +101,10 @@ header{
     padding-left: 80px;
 }
 
-.experiencia img{
+.experiencia__img img{
     width: 100px;
     height: 100px;
+    object-fit: cover;
     border-radius: 100px;
     padding: 5px;
 
@@ -120,9 +121,26 @@ header{
     
 }
 
-.educacion img{
+.educacion img , .icon img{
     width: 100px;
     height: 100px;
+    object-fit: cover;
     padding: 5px;
+
+}
+
+.icon{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+   
+   }
+
+.icon img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    
 
 }
